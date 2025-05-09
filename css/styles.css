@@ -1,0 +1,24 @@
+/* region task-1 */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* рівно 3 в ряд */
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+.gallery__image {
+  width: 100%;
+  height: 200px; /* або інше значення на твій смак */
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.basicLightbox__placeholder img {
+  max-width: 100vw;
+  max-height: 100vh;
+  display: block;
+  margin: auto;
+}
